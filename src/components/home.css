@@ -1,0 +1,25 @@
+.search_bar{
+    width: 200px;
+    
+}
+.search_bar input{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.search_bar input::placeholder{
+    color:black;
+    /* background-color: black; */
+    font-weight: bolder;
+}
+.cards{
+    padding: 10px;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px rgb(114,114,114);
+    margin-right:10px ;
+}
+.remove{
+    color: red;
+    margin-left: 30px;
+}
